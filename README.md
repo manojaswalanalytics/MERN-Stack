@@ -2,6 +2,7 @@
 This is my repository for my learning journey of MERN FSD
 <br>
 Author-Manoj Aswal
+<br>
 //Which Angled Triangle - JS Assignment
   let [a, b, c] = sides.split(' ').map(Number);
     const maxSide = Math.max(a, b, c);
@@ -14,7 +15,7 @@ Author-Manoj Aswal
         console.log(2);
     } else {
         console.log(3);
-
+<br>
         <H1>Quadrants</H1>
 <P>Four friends are in a mystery room and they aim to get out of the mystery room by cracking the final trail. The mystery room is divided into four chambers and each chamber will have two boxes storing balls. Now if both the boxes have blue balls, it must belong to chamber 1. Similarly if the first box has red balls and second box has blue balls, they must belong to chamber 2. If both the boxes have red balls, they must belong to chamber 3. Finally if the first box has blue balls and second box has red balls, it must belong to chamber 4.
 
