@@ -22,3 +22,30 @@ Author-Manoj Aswal
 You are given number of balls in each box and if the number has a negative sign it means the balls are red else the balls are blue if the sign is positive. Determine the chamber the two boxes belong to given the number and type of balls in each box.
 
 Note: Assume there will always be non-zero number of balls in each box.</P>
+
+
+const readline = require('readline');
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+rl.on('line', (x) => {
+  rl.on('line', (y) => {
+    const a = parseInt(x);
+    const b = parseInt(y);
+    
+    if (a > 0 && b > 0) {
+      console.log(1);
+    } else if (a < 0 && b > 0) {
+      console.log(2);
+    } else if (a < 0 && b < 0) {
+      console.log(3);
+    } else {
+      console.log(4);
+    }
+    
+    rl.close();
+  });
+})
