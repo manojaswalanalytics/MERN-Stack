@@ -49,3 +49,30 @@ rl.on('line', (x) => {
     rl.close();
   });
 })
+
+
+Assignments
+
+Even Sum
+You are given a number N. Print sum of all even numbers from 1 to N.
+
+Input Format
+There is only an integer N.
+
+Output Format
+Return the sum as a single integer.
+
+Example 1
+Input
+
+Even Sum
+You are given a number N. Print sum of all even numbers from 1 to N.
+
+Input Format
+There is only an integer N.
+
+Output Format
+Return the sum as a single integer.
+
+Example 1
+Input
